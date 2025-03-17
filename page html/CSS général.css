@@ -422,6 +422,104 @@ form button:hover {
     background-color: #388E3C;
 }
 
+/* Section des services : débroussaillage */
+.services-débroussaillage {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Conteneur des services pour les aligner */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Bloc de chaque service */
+.service-item {
+    width: 48%; /* Chaque bloc prend 48% de l'espace */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Images des services */
+.service-item img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+/*fin de Services Création & entretien*/
+
+/* Page de service : Création & entretien*/
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espace entre les images */
+    flex-wrap: wrap; /* Permet le passage à la ligne sur petits écrans */
+}
+
+.service-image {
+    width: 45%; /* Ajuste la largeur des images */
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.service, .conseils {
+    padding: 20px;
+    border-left: 5px solid #4a772f;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a772f;
+}
+
+/* Style spécifique pour les sections conseils */
+.conseils {
+    background-color: #e8f5e9;
+    border-left-color: #2e572f;
+}
+
+.conseil-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.conseils ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.conseils li {
+    margin-bottom: 10px;
+}
+
+/*fin de services : Création & entretien*/
+
 /* Footer */
 footer {
     text-align: center;
