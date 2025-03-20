@@ -6,16 +6,12 @@ body {
     color: #333;
 }
 
-.head-back-potager {
-    background-image: url('../images/head-back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container {
     width: 65%;
     margin: 0 auto;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('../images/head-back.jpg');
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
