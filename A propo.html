@@ -5,36 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qui sommes-nous – Lucas Jardins</title>
     <link rel="stylesheet" href="A propos.css"> <!-- Lien vers le fichier CSS -->
-
-    <script type="application/Id+json">
+    <script type="application/ld+json">
         {
-            "@context":"https://schema.org",
-            "@type":"Service",
-            "name":"Jardin",
-            "despcription":"service de jardinage professionnel effectuant différents services aux choix",
-            "provider":{
-                "@type":"gardenner",
-                "name":"Lucasjardin",
-                "url":"https://lucas-jardin.fr",
-                "logo":{
-                    "@type":"imageObjet",
-                    "url":"https://lucas-jardin.fr/image/logo.png",
-                    "width":300,
-                    "height":200,
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Plantation",
+            "description": "Service de jardinage professionnel efectuant différents services aux choix",
+            "provider": {
+                "@type": "Gardener",
+                "name": "Lucas Jardins Entreprise",
+                "url": "https://celiamelinard972.github.io/jardinage/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://celiamelinard972.github.io/jardinage/images/logo.png",
+                    "width": 300,
+                    "height": 200
                 },
                 "address":{
-                    "@type":"PostalAddress",
-                    "streetaddress":"102 chemin du génie",
-                    "postalCode":"060000",
-                    "addressLocality":"Nice",
-                    "addressRegion":"PACA",
-                    "addressCountry":"FR",
-        
-        
+                    "@type": "PostalAddress",
+                    "streetAddress": "102 Chemin du Génie",
+                    "psotalCode": "06000",
+                    "addressLocality": "Nice",
+                    "addressRegion": "PACA",
+                    "addressCountry": "FR"
+                }
             }
         }
-    }
-</script>
+        </script>
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context":"https://schema.org",
+            "@type":"Breadcrumblist",
+            "itemListElement":[
+                {
+                    "@type":"ListItem",
+                    "position": 1,
+                    "name":"Accueil",
+                    "item":"https://celiamelinard972.github.io/jardinage/Accueil"//URL de la page internet//
+                },
+                {
+                    "@type":"ListItem",
+                    "position": 2,
+                    "name":"Services",
+                    "item":"https://celiamelinard972.github.io/jardinage/services.html"//URL de la page internet//
+                },
+                {
+                    "@type":"ListItem",
+                    "position": 3,
+                    "name":"Paysager",
+                    "item":"https://celiamelinard972.github.io/jardinage/services.html/paysager.html"//URL de la page internet//
+                }
+            ]
+        }
+        </script>
 
 </head>
 <body>
