@@ -1,0 +1,94 @@
+/* Palette de couleurs */
+:root {
+    --jaune: #FFD700;
+    --lila: #D8BFD8;
+    --blanc: #FFFFFF;
+    --noir: #333;
+}
+
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--lila);
+    color: var(--noir);
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: var(--jaune);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: var(--noir);
+    font-size: 2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--noir);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--blanc);
+}
+
+/* Sections */
+section {
+    background-color: var(--blanc);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h2 {
+    color: var(--jaune);
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: var(--jaune);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: var(--noir);
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* Image */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 250px; /* Réduit la taille de l'image */
+    height: auto;
+    border-radius: 10px;
+}
