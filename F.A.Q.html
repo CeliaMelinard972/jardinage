@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Questions fréquentes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Quels sont les horaires d’ouverture de la jardinerie ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Notre jardinerie est ouverte du lundi au vendredi de 8h à 18h."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Proposez-vous un service de livraison ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oui, nous livrons vos plantes et accessoires à domicile dans un rayon de 30 km autour de notre magasin."
+                    }
+                }
+                {
+                    "@type": "Question",
+                    "name": "Quels types de plantes vendez-vous ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nous proposons une large gamme de plantes d’intérieur, 
+                            d’extérieur, des arbres, des arbustes, des plantes aromatiques et potagères."
+                    }
+                }
+                {
+                    "@type": "Question",
+                    "name": "Comment entretenir mes plantes d’intérieur ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "L’entretien dépend de chaque plante, mais en général, 
+                            il est important de leur offrir une lumière adaptée, un arrosage modéré et un bon drainage du sol."
+                    }
+                }
+                {
+                    "@type": "Question",
+                    "name": "Comment entretenir mes plantes d’intérieur ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bien sûr ! Nos experts en jardinerie sont à votre disposition en magasin pour vous conseiller selon vos besoins."
+                    }
+                }
+                {
+                    "@type": "Question",
+                    "name": "Quels sont les moyens de paiement acceptés ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nous acceptons les paiements par carte bancaire, espèces et chèques."
+                    }
+                }
+                {
+                    "@type": "Question",
+                    "name": "Puis-je retourner un article si je change d’avis ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oui, vous avez 14 jours pour retourner un produit non utilisé avec son emballage d’origine et le ticket de caisse."
+                    }
+                }
+            ]
+        }
+    </script>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "breadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://celiamelinard972.github.io/jardinage/Accueil" //URL de la page d'accueil//
+                    }
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Services",
+                        "item": "https://celiamelinard972.github.io/jardinage/F.A.Q.html" //URL de la page de F.A.Q.//
+                    }
+                ]
+            }
+            
+        </script>
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Foire Aux Questions</h1>
+        <div class="faq-item">
+            <button class="faq-question">Quels sont les horaires d’ouverture de la jardinerie ?</button>
+            <div class="faq-answer">
+                <p>Notre jardinerie est ouverte du lundi au vendredi de 8h à 18h.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Proposez-vous un service de livraison ?</button>
+            <div class="faq-answer">
+                <p>Oui, nous livrons vos plantes et accessoires à domicile dans un rayon de 30 km autour de notre magasin.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Quels types de plantes vendez-vous ?</button>
+            <div class="faq-answer">
+                <p>Nous proposons une large gamme de plantes d’intérieur, 
+                    d’extérieur, des arbres, des arbustes, des plantes aromatiques et potagères.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Comment entretenir mes plantes d’intérieur ?</button>
+            <div class="faq-answer">
+                <p>L’entretien dépend de chaque plante, mais en général, 
+                    il est important de leur offrir une lumière adaptée, un arrosage modéré et un bon drainage du sol.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Puis-je obtenir des conseils sur l’entretien de mon jardin ?</button>
+            <div class="faq-answer">
+                <p>Bien sûr ! Nos experts en jardinerie sont à votre disposition en magasin pour vous conseiller selon vos besoins.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Quels sont les moyens de paiement acceptés ?</button>
+            <div class="faq-answer">
+                <p>Nous acceptons les paiements par carte bancaire, espèces et chèques.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Puis-je retourner un article si je change d’avis ?</button>
+            <div class="faq-answer">
+                <p>Oui, vous avez 14 jours pour retourner un produit non utilisé avec son emballage d’origine et le ticket de caisse.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                button.nextElementSibling.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
