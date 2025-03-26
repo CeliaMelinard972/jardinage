@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Jardins - Systèmes d'Arrosages Professionnels</title>
-    <link rel="stylesheet" href="Egalage.css"> <!-- Lien vers le fichier CSS -->
+    <title>Lucas Jardins</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Plantation",
+            "name": "Elagage",
             "description": "Service de jardinage professionnel efectuant différents services aux choix",
             "provider": {
                 "@type": "Gardener",
-                "name": "Lucas Jardins Entreprise",
+                "name": "Lucas Jardins",
                 "url": "https://celiamelinard972.github.io/jardinage/",
                 "logo": {
                     "@type": "ImageObject",
@@ -41,7 +41,7 @@
                     "@type":"ListItem",
                     "position": 1,
                     "name":"Accueil",
-                    "item":"https://celiamelinard972.github.io/jardinage/Accueil"//URL de la page internet//
+                    "item":"https://celiamelinard972.github.io/jardinage/"//URL de la page internet//
                 },
                 {
                     "@type":"ListItem",
@@ -53,7 +53,7 @@
                     "@type":"ListItem",
                     "position": 3,
                     "name":"Paysager",
-                    "item":"https://celiamelinard972.github.io/jardinage/services.html/paysager.html"//URL de la page internet//
+                    "item":"https://celiamelinard972.github.io/jardinage/services.html/service-elagage.html"//URL de la page internet//
                 }
             ]
         }
@@ -62,35 +62,35 @@
 </head>
 <body>
     <header>
-        <div class="container header-content">
-            <div class="logo">
-                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25 2C12.85 2 3 11.85 3 24C3 36.15 12.85 46 25 46C37.15 46 47 36.15 47 24C47 11.85 37.15 2 25 2Z" stroke="#e63946" stroke-width="3"/>
-                    <path d="M25 10C25 10 15 15 15 24C15 33 25 38 25 38" stroke="#4caf50" stroke-width="3"/>
-                    <path d="M25 10C25 10 35 15 35 24C35 33 25 38 25 38" stroke="#4caf50" stroke-width="3"/>
-                </svg>
-                <span class="logo-text">Lucas Jardins</span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="A propo.html">A propos</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle">
-                            Services
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m6 9 6 6 6-6"/>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="Egalage.html" class="active">Elagage</a></li>
-                            <li><a href="Arossage.html">Système d'Arrosage</a></li>
-                        </ul>
-                    </li>
-                    <li></li>
-                </ul>
-            </nav>
-        </div>
+        <img src="images/lucas-jardin_logowhite.png" alt="Logo Lucas Jardins" class="logo">
+        <h1>Bienvenue sur Lucas Jardins</h1>
+        <p>Votre expert en jardinage et aménagement paysager</p>
     </header>
+           <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="dropdown">
+                <a href="#">Services &#9662;</a>
+                <ul class="submenu">
+                    <li><a href="service-plantation.html">Plantation</a></li>
+                    <li><a href="service-potager.html">Potager</a></li>
+                    <li><a href="service-plantes-aquatiques.html">Plantes aquatiques</a></li>
+                    <li><a href="service-engrais.html">Engrais</a></li>
+                    <li><a href="service-arrosage.html">Système d'arrosage</a></li>
+                    <li><a href="service-Elagage.html">élagage</a></li>
+                    <li><a href="service-création-&-entretien.html">Création d'entretien</a></li>
+                    <li><a href="service-débroussaillage.html">Débrousaillage</a></li>
+                    <li><a href="service-animalerie.html">Animalerie</a></li>
+                    <li><a href="service-préparation-sol.html">Préparation des sols</a></li>
+                    <li><a href="service-travaux-maconnerie.html">Travaux de maçonnerie</a></li>
+                    <li><a href="service-paysager.html">Aménagement paysager</a></li>
+                </ul>
+            </li>
+            <li><a href="F.A.Q.html">FAQ</a></li>
+            <li><a href="A-propos.html">Réalisations</a></li>
+            <li><a href="page-contact.html">Contact</a></li>
+        </ul>
+    </nav>
     
     <!-- Bannière horizontale -->
     <section class="banner" id="accueil">
@@ -189,48 +189,8 @@
         </div>
     </section>
     
-    <footer id="contact">
-        <div class="container footer-content">
-            <div class="footer-section">
-                <h3>Lucas Jardins</h3>
-                <p>Spécialiste des systèmes d'arrosage et d'aménagement paysager depuis 2008.</p>
-            </div>
-            
-            <div class="footer-section">
-                <h3>Liens Rapides</h3>
-                <a href="#accueil">Accueil</a>
-                <a href="#À propos">À propos</a>
-                <a href="#Nos services">Nos services</a>
-                
-            </div>
-            
-            <div class="footer-section">
-                <h3>Horaires</h3>
-                <p>Lundi - Vendredi: 9h - 18h</p>
-                <p>Samedi: 10h - 16h</p>
-                <p>Dimanche: Fermé</p>
-            </div>
-        </div>
-        
-        <div class="container copyright">
-            <p>&copy; 2025 Lucas Jardins. Tous droits réservés.</p>
-        </div>
+    <footer>
+        <p>&copy; 2025 Jardinage Passion | Tous droits réservés.</p>
     </footer>
-
-    <script>
-        // Mobile dropdown toggle
-        const dropdowns = document.querySelectorAll('.dropdown');
-        
-        dropdowns.forEach(dropdown => {
-            const toggle = dropdown.querySelector('.dropdown-toggle');
-            
-            toggle.addEventListener('click', (e) => {
-                if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    dropdown.classList.toggle('active');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
