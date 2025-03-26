@@ -1,0 +1,49 @@
+<script type="application/Id+json">
+{
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "name":"Jardin",
+    "despcription":"service de jardinage professionnel effectuant différents services aux choix",
+    "provider":{
+        "@type":"gardenner",
+        "name":"Lucasjardin",
+        "url":"https://lucas-jardin.fr",
+        "logo":{
+            "@type":"imageObjet",
+            "url":"https://lucas-jardin.fr/image/logo.png",
+            "width":300,
+            "height":200,
+        },
+        "address":{
+            "@type":"PostalAddress",
+            "streetaddress":"102 chemin du génie",
+            "postalCode":"060000",
+            "addressLocality":"Nice",
+            "addressRegion":"PACA",
+            "addressCountry":"FR",
+
+
+    }
+}
+
+
+    "url":"https://plomberie-mariobros.fr",
+    "logo":"https://plomberie-mariobros.fr/image/logo-mario.png",
+    "image":"https://plomberie-mariobros.fr/image/entreprise.webp",
+   
+    "address":{
+        "@type":"PostalAddress",
+        "streetaddress":"10 rue des Canalisations",
+        "postalCode":"06500",
+        "addressLocality":"Menton",
+        "addressRegion":"Provence-Qlpes-Cote-Azur",
+        "addressCountry":"FR",
+    },
+    "geo":{
+        "@type":"Geocoordinate",
+        "longtude":"7.4975",
+        "latitude":"43.7745",
+    }
+
+}
+</script>
