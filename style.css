@@ -326,14 +326,6 @@ footer {
 }
 //Page de service potager//
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 .head-back-potager {
     background-image: url('../images/head-back.jpg');
     background-repeat: no-repeat;
@@ -396,17 +388,6 @@ body {
     background: #e8f5e9;
 }
 
-.footer {
-    background-color: #16771e; 
-    color: white; 
-    text-align: center; 
-    padding: 20px; 
-    font-size: 16px; 
-    border: 2px solid white; 
-    border-radius: 10px; 
-    margin: 20px;
-}
-
 /* haut */
 
 .scroll-to-top {
@@ -434,15 +415,6 @@ html:has(:target) .scroll-to-top {
 }
 
 //Page de service animalerie//
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 
 .container {
     width: 65%;
@@ -501,17 +473,6 @@ body {
     padding: 15px;
     border-left: 5px solid #2e7d32;
     background: #e8f5e9;
-}
-
-.footer {
-    background-color: #16771e; 
-    color: white; 
-    text-align: center; 
-    padding: 20px; 
-    font-size: 16px; 
-    border: 2px solid white; 
-    border-radius: 10px; 
-    margin: 20px;
 }
 
 /* haut */
