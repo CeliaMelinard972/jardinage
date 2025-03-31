@@ -426,6 +426,7 @@ html:has(:target) .scroll-to-top {
 
 //Page de service animalerie//
 
+/* Conteneur principal avec fond d'image et ombre portée */
 .container {
     width: 65%;
     height: 600px;
@@ -438,6 +439,7 @@ html:has(:target) .scroll-to-top {
     border-radius: 10px;
 }
 
+/* Conteneur avec fond vert clair, centré */
 .containerwb {
     width: 40%;
     margin-left: 10%;
@@ -448,6 +450,7 @@ html:has(:target) .scroll-to-top {
     text-align: center;
 }
 
+/* Conteneur pour la section sol, aligné à droite */
 .containersoil {
     width: 40%;
     margin-left: 50%;
@@ -458,6 +461,7 @@ html:has(:target) .scroll-to-top {
     text-align: center;
 }
 
+/* Texte grand format avec contour vert pour accentuer */
 .big-text {
     width: 60%;
     font-size: 200%;
@@ -466,6 +470,7 @@ html:has(:target) .scroll-to-top {
     -webkit-text-stroke: 1px #0b391d;
 }
 
+/* Titre de la section avec taille de police plus grande et couleur verte */
 .nos {
     font-size: 300%;
     color: #16771e;
@@ -473,11 +478,13 @@ html:has(:target) .scroll-to-top {
     -webkit-text-stroke: 1px #0b391d;
 }
 
+/* Texte pour la section animalerie, centré */
 .animalerie-text {
     color: #000;
     text-align: center;
 }
 
+/* Section service avec bordure verte à gauche et fond vert clair */
 .service {
     margin: 20px 0;
     padding: 15px;
@@ -485,8 +492,7 @@ html:has(:target) .scroll-to-top {
     background: #e8f5e9;
 }
 
-/* haut */
-
+/* Bouton de retour en haut de page avec fond vert et texte blanc */
 .scroll-to-top {
     position: static;
     bottom: 20px;
@@ -503,10 +509,12 @@ html:has(:target) .scroll-to-top {
     border-radius: 10px;
 }
 
+/* Effet au survol du bouton de retour en haut */
 .scroll-to-top:hover {
     background: #2e7d32;
 }
 
+/* Afficher le bouton de retour en haut quand un cible est spécifiée */
 html:has(:target) .scroll-to-top {
     display: block;
 }
@@ -520,20 +528,22 @@ html:has(:target) .scroll-to-top {
     background-color: #16771e;
     position: fixed;
     top: 0;
-    left: 0; 
+    left: 0;
     z-index: 1000;
-    padding: 10px; 
-    border: 2px solid white; 
-    border-radius: 10px; 
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
     margin: 20px;
 }
 
+/* Logo dans la barre de navigation */
 .logo {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
+/* Liens dans la barre de navigation */
 .nav-links {
     list-style: none;
     display: flex;
@@ -550,16 +560,18 @@ html:has(:target) .scroll-to-top {
     transition: color 0.3s ease-in-out;
 }
 
+/* Effet au survol des liens de navigation */
 .nav-links a:hover {
     color: #d4edda;
 }
 
-/* menu mobile */
+/* Menu mobile */
 .nav-menu {
     display: none;
     font-size: 2rem;
     color: white;
     cursor: pointer;
+}
 }
 //Page de service paysager//
 /* Section Introduction */
