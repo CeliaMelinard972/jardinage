@@ -327,74 +327,37 @@ footer {
 
 //Page de service potager//
 
-/* Fond pour la section d'en-tête */
-.head-back-potager {
-    background-image: url('../images/head-back.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Conteneur principal avec fond d'image et ombre portée */
-.container {
-    width: 65%;
-    margin: 0 auto;
+.service, .containersoil {
+    background: white;
     padding: 20px;
-    background-image: url('../images/head-back.jpg');
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    margin: 20px auto;
+    border-left: 5px solid #4a772f;
+    border-radius: 5px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Conteneur avec fond vert clair, centré */
-.containerwb {
-    width: 40%;
-    margin-left: 10%;
-    padding: 20px;
-    background-color: #e8f5e9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+/* Titres */
+h1, h2 {
+    color: #4a772f;
     text-align: center;
 }
 
-/* Conteneur pour la section sol, aligné à droite */
-.containersoil {
-    width: 40%;
-    margin-left: 50%;
-    padding: 20px;
-    background-color: #e8f5e9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    text-align: center;
+/* Texte */
+.potager-text, .big-test {
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
 }
 
-/* Texte grand format avec contour vert pour accentuer */
-.big-text {
-    width: 60%;
-    font-size: 200%;
-    text-align: center;
-    margin: 0 auto;
-    -webkit-text-stroke: 1px #0b391d;
-}
-
-/* Titre de la section avec taille de police plus grande et couleur verte */
-.nos {
-    font-size: 300%;
-    color: #16771e;
-    text-align: center;
-    -webkit-text-stroke: 1px #0b391d;
-}
-
-/* Texte pour la section potager, centré */
-.potager-text {
-    color: #000;
-    text-align: center;
-}
-
-/* Section service avec bordure verte à gauche et fond vert clair */
-.service {
-    margin: 20px 0;
-    padding: 15px;
-    border-left: 5px solid #2e7d32;
-    background: #e8f5e9;
+/* Images */
+.containersoil img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Bouton de retour en haut de page avec fond vert et texte blanc */
@@ -519,7 +482,7 @@ html:has(:target) .scroll-to-top {
     display: block;
 }
 
-/*page de service Création & Entretien*/
+//page de service Création & Entretien//
 
 main {
     max-width: 800px;
@@ -583,7 +546,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/*page de service Débroussaillage*/
+//page de service Débroussaillage//
 
 /* Section des services : débroussaillage */
 .services-débroussaillage {
