@@ -196,7 +196,8 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-//Page de service plantation//
+
+/*Page de service plantation*/
 /* Introduction */
 .intro {
     text-align: center;
@@ -325,7 +326,7 @@ footer {
     line-height: 1.4;
 }
 
-//Page de service potager//
+/*Page de service potager*/
 
 .service, .containersoil {
     background: white;
@@ -387,7 +388,7 @@ html:has(:target) .scroll-to-top {
     display: block;
 }
 
-//Page de service animalerie//
+/*Page de service animalerie*/
 
 /* Styles pour le menu déroulant */
 .dropdown {
@@ -483,7 +484,7 @@ html:has(:target) .scroll-to-top {
     display: block;
 }
 
-//page de service Création & Entretien//
+/*page de service Création & Entretien*/
 
 main {
     max-width: 800px;
@@ -547,7 +548,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-//page de service Débroussaillage//
+/*page de service Débroussaillage*/
 
 /* Section des services : débroussaillage */
 .services-débroussaillage {
@@ -581,7 +582,7 @@ h2 {
     border-radius: 10px;
 }
 
-//Page de service paysager//
+/*Page de service paysager*/
 /* Section Introduction */
 .intro {
     text-align: center;
@@ -680,7 +681,8 @@ h2 {
 .devis .btn:hover {
     background-color: #388E3C;
 }
-//Page de contact//
+
+/*Page de contact*/
 /* Section principale Page de Contact*/
 main #contact{
     width: 80%;
@@ -1010,7 +1012,7 @@ form button:hover {
     background-color: #388E3C;
 }
 
-//Page de service Préparation des sols//
+/*Page de service Préparation des sols*/
 /* Image */
 .preparation img{
     width: 300px;
@@ -1033,7 +1035,7 @@ form button:hover {
     font-size: 1.1rem;
 }
 
-//Page de service Travaux maçonnerie//
+/*Page de service Travaux maçonnerie*/
 /* Image */
 .macon img {
     max-width: 100%;
@@ -1060,7 +1062,7 @@ form button:hover {
     color: #1B5E20;
 }
 
-//Page de réalisation//
+/*Page de réalisation*/
 /* Welcome Section */
 .welcome-section {
     padding: 80px 0;
@@ -1302,7 +1304,7 @@ form button:hover {
     color: #666;
 }
 
-//Page de service plantes aquatiques//
+/*Page de service plantes aquatiques*/
 .about {
         text-align: center;
         padding: 40px;
@@ -1365,7 +1367,7 @@ form button:hover {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
     
-//Page de service engrais//
+/*Page de service engrais*/
 .about {
         text-align: center;
         padding: 40px;
@@ -1428,7 +1430,7 @@ form button:hover {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
     
-// Page de service élage//
+/* Page de service élage*/
 /* Introduction Section */
 .intro-section {
     padding: 3rem 0;
@@ -1710,7 +1712,7 @@ form button:hover {
     flex-grow: 1;
 }
 
-// Page de service arossage//
+/* Page de service arossage*/
 /* Banner Section */
 .banner {
     width: 100%;
