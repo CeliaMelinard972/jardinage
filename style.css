@@ -779,6 +779,31 @@ ul li {
 }
 
 //Page de service Travaux maçonnerie//
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Liste des services */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #E8F5E9;
+    border-left: 5px solid #4CAF50;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li strong {
+    color: #1B5E20;
+}
 
 /* Pour les écrans larges */
 @media (min-width: 768px) {
