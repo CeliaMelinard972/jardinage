@@ -328,64 +328,31 @@ footer {
 
 /*Page de service potager*/
 
-.service, .containersoil {
-    background: white;
-    padding: 20px;
+main {
+    width: 80%;
     margin: 20px auto;
-    border-left: 5px solid #4a772f;
-    border-radius: 5px;
-    max-width: 900px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Titres */
-h1, h2 {
-    color: #4a772f;
-    text-align: center;
-}
-
-/* Texte */
-.potager-text, .big-test {
-    font-size: 16px;
-    text-align: justify;
-    padding: 10px;
-}
-
-/* Images */
-.containersoil img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 15px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Bouton de retour en haut de page avec fond vert et texte blanc */
-.scroll-to-top {
-    position: static;
-    bottom: 20px;
-    right: 20px;
-    background: #16771e;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    margin: 20px;
+    padding: 20px;
+    background: white;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Effet au survol du bouton de retour en haut */
-.scroll-to-top:hover {
-    background: #2e7d32;
+h1, h2 {
+    color: #2c5f2d;
+    text-align: center;
 }
 
-/* Afficher le bouton de retour en haut quand un cible est spécifiée */
-html:has(:target) .scroll-to-top {
-    display: block;
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.containersoil {
+    margin: 20px 0;
+    padding: 15px;
+    background: #e8f5e9;
+    border-left: 5px solid #2c5f2d;
+    border-radius: 5px;
 }
 
 /*Page de service animalerie*/
