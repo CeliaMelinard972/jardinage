@@ -389,70 +389,71 @@ html:has(:target) .scroll-to-top {
 
 //Page de service animalerie//
 
-/* Conteneur principal avec fond d'image et ombre portée */
-.container {
-    width: 65%;
-    height: 600px;
-    margin: 0 auto;
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.submenu li {
+    display: block;
+    margin: 0;
+}
+
+.submenu a {
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+section.big-text {
     padding: 20px;
-    background-image: url('../images/nos-serv.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-/* Conteneur avec fond vert clair, centré */
-.containerwb {
-    width: 40%;
-    margin-left: 10%;
-    padding: 20px;
-    background-color: #e8f5e9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
     text-align: center;
-}
-
-/* Conteneur pour la section sol, aligné à droite */
-.containersoil {
-    width: 40%;
-    margin-left: 50%;
-    padding: 20px;
-    background-color: #e8f5e9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    text-align: center;
-}
-
-/* Texte grand format avec contour vert pour accentuer */
-.big-text {
-    width: 60%;
-    font-size: 200%;
-    text-align: center;
-    margin: 0 auto;
-    -webkit-text-stroke: 1px #0b391d;
-}
-
-/* Titre de la section avec taille de police plus grande et couleur verte */
-.nos {
-    font-size: 300%;
-    color: #16771e;
-    text-align: center;
-    -webkit-text-stroke: 1px #0b391d;
-}
-
-/* Texte pour la section animalerie, centré */
-.animalerie-text {
-    color: #000;
-    text-align: center;
-}
-
-/* Section service avec bordure verte à gauche et fond vert clair */
-.service {
     margin: 20px 0;
-    padding: 15px;
-    border-left: 5px solid #2e7d32;
-    background: #e8f5e9;
+    background-color: white;
+}
+
+section.big-text img {
+    max-width: 100%; /* Assurez-vous que les images sont responsives */
+    height: auto;
+    margin: 10px 0;
+}
+
+.animalerie-text {
+    text-align: left;
+    padding: 10px;
+}
+
+.containerwb, .containersoil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.containerwb div, .containersoil div {
+    width: 100%;
+    text-align: center;
+}
+
+.containerwb img, .containersoil img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
 }
 
 /* Bouton de retour en haut de page avec fond vert et texte blanc */
