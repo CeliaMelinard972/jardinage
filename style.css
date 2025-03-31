@@ -519,60 +519,6 @@ html:has(:target) .scroll-to-top {
     display: block;
 }
 
-/* Barre de navigation */
-.navbar {
-    right: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #16771e;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: 20px;
-}
-
-/* Logo dans la barre de navigation */
-.logo {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-/* Liens dans la barre de navigation */
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    transition: color 0.3s ease-in-out;
-}
-
-/* Effet au survol des liens de navigation */
-.nav-links a:hover {
-    color: #d4edda;
-}
-
-/* Menu mobile */
-.nav-menu {
-    display: none;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-}
-}
 //Page de service paysager//
 /* Section Introduction */
 .intro {
@@ -1294,51 +1240,6 @@ form button:hover {
     font-size: 0.9rem;
     color: #666;
 }
-/* Footer */
-footer {
-    padding: 3rem 0 1rem;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 1.5rem;
-}
-
-.footer-section h3 {
-    margin-bottom: 1rem;
-    color: #a8dadc;
-    font-size: 1.2rem;
-}
-
-.footer-section p, .footer-section a {
-    color: #ddd;
-    margin-bottom: 0.5rem;
-    display: block;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
-.footer-section a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: 2rem;
-    font-size: 0.8rem;
-    color: #aaa;
-}
 
 //Page de service plantes aquatiques//
 .about {
@@ -1402,39 +1303,7 @@ footer {
         border-radius: 10px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
-    footer {
-        text-align: center;
-        background: #2E7D32;
-        color: white;
-        padding: 10px 0;
-        margin-top: 20px;
-    }    
-
-/* Responsive Design */
-@media (max-width: 992px) {
-    .welcome-container,
-    .team-container,
-    .stats-container,
-    .commitments-container {
-        flex-direction: column;
-    }
     
-    .stats-grid,
-    .commitment-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .hero-title {
-        font-size: 3rem;
-    }
-    
-    .welcome-title,
-    .history-title,
-    .team-title,
-    .commitments-title {
-        font-size: 2rem;
-    }
-}
 //Page de service engrais//
 .about {
         text-align: center;
@@ -1497,144 +1366,8 @@ footer {
         border-radius: 10px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
-    footer {
-        text-align: center;
-        background: #2E7D32;
-        color: white;
-        padding: 10px 0;
-        margin-top: 20px;
-    }    
-
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-    }
     
-    nav ul {
-        margin-top: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    nav ul li {
-        margin: 0.5rem;
-    }
-    
-    .hero-title {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 2rem;
-    }
-    
-    .welcome-title,
-    .history-title,
-    .team-title,
-    .commitments-title {
-        font-size: 1.8rem;
-    }
-    
-    .stat-number {
-        font-size: 2rem;
-    }
-}
-
-
-/* Pour les écrans larges */
-@media (min-width: 768px) {
-    footer {
-        display: flex;
-        justify-content: center;
-        padding: 30px 50px;
-    }
-
-    footer h3 {
-        font-size: 1.5em;
-    }
-
-    footer p {
-        font-size: 1.1em;
-    }
-}
-
-/* Pour les petits écrans (tablettes et téléphones) */
-@media (max-width: 767px) {
-    footer {
-        padding: 15px 10px;
-    }
-
-    footer h3 {
-        font-size: 1.2em;
-    }
-
-    footer p {
-        font-size: 1em;
-    }
-}
-
-/* Pour les très petits écrans (mobiles) */
-@media (max-width: 480px) {
-    footer {
-        padding: 10px;
-    }
-
-    footer h3 {
-        font-size: 1.1em;
-    }
-
-    footer p {
-        font-size: 0.9em;
-    }
-}
-/* Navigation */
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--dark-color);
-    font-weight: 500;
-    transition: color 0.3s;
-    position: relative;
-    padding-bottom: 5px;
-}
-
-nav ul li a:hover {
-    color: var(--primary-color);
-}
-
-nav ul li a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--primary-color);
-    transition: width 0.3s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
-nav ul li a.active {
-    color: var(--primary-color);
-}
-
-nav ul li a.active::after {
-    width: 100%;
-}
-
+// Page de service élage//
 /* Introduction Section */
 .intro-section {
     padding: 3rem 0;
@@ -1916,82 +1649,7 @@ nav ul li a.active::after {
     flex-grow: 1;
 }
 
-/* Footer */
-footer {
-    background-color: var(--dark-color);
-    color: white;
-    padding: 2rem 0;
-    margin-top: 3rem;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 1.5rem;
-}
-
-.footer-section h3 {
-    margin-bottom: 1rem;
-    color: var(--medium-color);
-}
-
-.footer-section p, .footer-section a {
-    color: #ddd;
-    margin-bottom: 0.5rem;
-    display: block;
-    text-decoration: none;
-}
-
-.footer-section a:hover {
-    color: white;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: 2rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-    }
-    
-    nav ul {
-        margin-top: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    nav ul li {
-        margin: 0.5rem;
-    }
-    
-    .banner {
-        height: 300px;
-    }
-    
-    .banner-text h1 {
-        font-size: 2rem;
-    }
-    
-    .featured-system {
-        flex-direction: column;
-    }
-    
-    .footer-content {
-        flex-direction: column;
-    }
-}
-
+// Page de service arossage//
 /* Banner Section */
 .banner {
     width: 100%;
@@ -2221,110 +1879,49 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     border: 3px solid white;
 }
-
-/* Footer */
-footer {
-    background-color: var(--dark-color);
-    color: white;
-    padding: 2rem 0;
-    margin-top: 3rem;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 1.5rem;
-}
-
-.footer-section h3 {
-    margin-bottom: 1rem;
-    color: var(--medium-color);
-}
-
-.footer-section p, .footer-section a {
-    color: #ddd;
-    margin-bottom: 0.5rem;
-    display: block;
-    text-decoration: none;
-}
-
-.footer-section a:hover {
-    color: white;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-top: 2rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-    }
-    
-    nav ul {
-        margin-top: 1rem;
-        flex-wrap: wrap;
+/* Pour les écrans larges */
+@media (min-width: 768px) {
+    footer {
+        display: flex;
         justify-content: center;
+        padding: 30px 50px;
     }
-    
-    nav ul li {
-        margin: 0.5rem;
+
+    footer h3 {
+        font-size: 1.5em;
     }
-    
-    .banner {
-        height: 300px;
-    }
-    
-    .banner-text h1 {
-        font-size: 2rem;
-    }
-    
-    .featured-system {
-        flex-direction: column;
-    }
-    
-    .footer-content {
-        flex-direction: column;
+
+    footer p {
+        font-size: 1.1em;
     }
 }
 
-.back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s;
-    z-index: 99;
+/* Pour les petits écrans (tablettes et téléphones) */
+@media (max-width: 767px) {
+    footer {
+        padding: 15px 10px;
+    }
+
+    footer h3 {
+        font-size: 1.2em;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
 }
 
-.back-to-top.visible {
-    opacity: 1;
-    visibility: visible;
-}
+/* Pour les très petits écrans (mobiles) */
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;
+    }
 
-.back-to-top:hover {
-    background-color: var(--accent-color);
-    transform: translateY(-5px);
-}
+    footer h3 {
+        font-size: 1.1em;
+    }
 
+    footer p {
+        font-size: 0.9em;
+    }
+}
