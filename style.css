@@ -324,6 +324,7 @@ footer {
     font-size: 0.9em;
     line-height: 1.4;
 }
+//Page de service potager//
 
 body {
     font-family: Arial, sans-serif;
@@ -431,6 +432,8 @@ body {
 html:has(:target) .scroll-to-top {
     display: block;
 }
+
+//Page de service animalerie//
 
 body {
     font-family: Arial, sans-serif;
