@@ -324,14 +324,17 @@ footer {
     font-size: 0.9em;
     line-height: 1.4;
 }
+
 //Page de service potager//
 
+/* Fond pour la section d'en-tête */
 .head-back-potager {
     background-image: url('../images/head-back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* Conteneur principal avec fond d'image et ombre portée */
 .container {
     width: 65%;
     margin: 0 auto;
@@ -341,6 +344,7 @@ footer {
     border-radius: 10px;
 }
 
+/* Conteneur avec fond vert clair, centré */
 .containerwb {
     width: 40%;
     margin-left: 10%;
@@ -351,6 +355,7 @@ footer {
     text-align: center;
 }
 
+/* Conteneur pour la section sol, aligné à droite */
 .containersoil {
     width: 40%;
     margin-left: 50%;
@@ -361,6 +366,7 @@ footer {
     text-align: center;
 }
 
+/* Texte grand format avec contour vert pour accentuer */
 .big-text {
     width: 60%;
     font-size: 200%;
@@ -369,6 +375,7 @@ footer {
     -webkit-text-stroke: 1px #0b391d;
 }
 
+/* Titre de la section avec taille de police plus grande et couleur verte */
 .nos {
     font-size: 300%;
     color: #16771e;
@@ -376,11 +383,13 @@ footer {
     -webkit-text-stroke: 1px #0b391d;
 }
 
+/* Texte pour la section potager, centré */
 .potager-text {
     color: #000;
     text-align: center;
 }
 
+/* Section service avec bordure verte à gauche et fond vert clair */
 .service {
     margin: 20px 0;
     padding: 15px;
@@ -388,8 +397,7 @@ footer {
     background: #e8f5e9;
 }
 
-/* haut */
-
+/* Bouton de retour en haut de page avec fond vert et texte blanc */
 .scroll-to-top {
     position: static;
     bottom: 20px;
@@ -406,10 +414,12 @@ footer {
     border-radius: 10px;
 }
 
+/* Effet au survol du bouton de retour en haut */
 .scroll-to-top:hover {
     background: #2e7d32;
 }
 
+/* Afficher le bouton de retour en haut quand un cible est spécifiée */
 html:has(:target) .scroll-to-top {
     display: block;
 }
