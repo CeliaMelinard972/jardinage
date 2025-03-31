@@ -390,72 +390,7 @@ html:has(:target) .scroll-to-top {
 
 /*Page de service animalerie*/
 
-/* Styles pour le menu déroulant */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-.submenu {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 200px;
-    z-index: 1;
-}
-
-.submenu li {
-    display: block;
-    margin: 0;
-}
-
-.submenu a {
-    padding: 10px 15px;
-    display: block;
-    text-align: left;
-}
-
-.dropdown:hover .submenu {
-    display: block;
-}
-
-section.big-text {
-    padding: 20px;
-    text-align: center;
-    margin: 20px 0;
-    background-color: white;
-}
-
-section.big-text img {
-    max-width: 100%; /* Assurez-vous que les images sont responsives */
-    height: auto;
-    margin: 10px 0;
-}
-
-.animalerie-text {
-    text-align: left;
-    padding: 10px;
-}
-
-.containerwb, .containersoil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-}
-
-.containerwb div, .containersoil div {
-    width: 100%;
-    text-align: center;
-}
-
-.containerwb img, .containersoil img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-}
 
 /* Bouton de retour en haut de page avec fond vert et texte blanc */
 .scroll-to-top {
