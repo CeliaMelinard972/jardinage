@@ -935,12 +935,22 @@ form button:hover {
 
 /*Page de service Travaux maçonnerie*/
 /* Image */
-.macon img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    display: block;
+.maconnerie {
+    display: flex;
+    justify-content: center;  /* Centre l'image horizontalement */
+    align-items: center;  /* Centre verticalement si besoin */
+    margin: 20px auto;
+    max-width: 900px; /* Largeur max du conteneur */
 }
+
+.maconnerie img {
+    width: 100%;  /* L'image s'adapte à la largeur du conteneur */
+    max-width: 600px;  /* Taille max pour éviter qu'elle ne devienne trop grande */
+    height: auto;  /* Garde les proportions */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
 
 /* Liste des services */
 .maconnerie ul {
