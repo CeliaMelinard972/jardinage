@@ -904,12 +904,20 @@ form button:hover {
 
 /*Page de service Préparation des sols*/
 /* Image */
-.preparation img{
-    width: 300px;
-    height: auto;
-    display: block;
+.preparationsol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px auto;
+    max-width: 900px; /* Ajuste la largeur max si besoin */
+}
+
+.preparationsol img {
+    width: 100%;  /* L'image s'adapte à la largeur du conteneur */
+    max-width: 600px;  /* Limite la taille pour éviter qu'elle ne devienne trop grande */
+    height: auto;  /* Garde les proportions */
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Liste des étapes */
