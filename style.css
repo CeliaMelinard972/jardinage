@@ -337,6 +337,16 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.potager {
+    display: block;
+    max-width: 100%; /* L'image ne dépasse pas la largeur du conteneur */
+    width: 600px; /* Ajuste la largeur selon tes préférences */
+    height: auto; /* Garde les proportions */
+    margin: 20px auto; /* Centre l'image horizontalement */
+    border-radius: 10px; /* Coins arrondis pour un effet plus esthétique */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
 h1, h2 {
     color: #2c5f2d;
     text-align: center;
@@ -359,6 +369,16 @@ p {
 
 main {
     padding: 20px;
+}
+
+.animaux {
+    display: block;
+    max-width: 100%; /* L'image ne dépasse pas la largeur du conteneur */
+    width: 600px; /* Ajuste la largeur selon tes préférences */
+    height: auto; /* Garde les proportions */
+    margin: 20px auto; /* Centre l'image horizontalement */
+    border-radius: 10px; /* Coins arrondis pour un effet plus esthétique */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
 }
 
 section {
